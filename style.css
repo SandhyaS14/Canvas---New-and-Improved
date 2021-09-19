@@ -1,0 +1,9 @@
+body {
+    background: linear-gradient(skyblue 0%, pink 100%);
+   }
+   #myCanvas
+     {
+         border-width:10px;
+         background-color: white; 
+         border-style:ridge;
+     }
