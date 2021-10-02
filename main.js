@@ -27,7 +27,7 @@ function my_mousemove(e) {
     ctx.beginPath();
     ctx.strokeStyle = color;
     ctx.lineWidth = width;
-    ctx.moveto(currentX, currentY);
+    ctx.moveTo(currentX, currentY);
     ctx.lineTo(lastX, lastY);
     ctx.stroke();
   }
